@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray22"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.55"
+        android:text="操作"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:gravity="center"
+        android:textColor="@color/gray19"
+   />
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.55"
+        android:gravity="center"
+        android:text="序号"
+        android:textColor="@color/gray19"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.55"
+        android:gravity="center"
+        android:textColor="@color/gray19"
+        android:text="期号"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_weight="0.5"
+        android:text="投注倍数"
+        android:textColor="@color/gray19"
+        android:textSize="13sp"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+    <com.lottery.biying.view.AutoFitHeightTextview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.52"
+        android:gravity="center"
+        android:text="累计投注"
+        android:textColor="@color/gray19"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+    <com.lottery.biying.view.AutoFitHeightTextview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="中奖盈利"
+        android:textColor="@color/gray19"
+        android:textSize="13sp" />
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+    <com.lottery.biying.view.AutoFitHeightTextview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text="总盈利率"
+        android:textColor="@color/gray19"
+        android:textSize="13sp" />
+</LinearLayout>

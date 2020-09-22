@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/hulu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hulu"
+        />
+    <ImageView
+        android:id="@+id/hulubackpic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dip"
+        android:padding="24dip"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle_red"
+        />
+    <TextView
+        android:id="@+id/value2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/hulu"
+        android:textSize="24sp"
+        android:layout_marginBottom="5dip"
+        android:layout_centerHorizontal="true"
+        android:text="2"
+        android:textColor="@color/red"
+        />
+
+    <TextView
+        android:id="@+id/value1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="13dip"
+        android:layout_centerHorizontal="true"
+        android:text="2"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>

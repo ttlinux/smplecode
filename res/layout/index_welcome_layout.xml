@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/loadingimg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="60dip"
+        android:background="@drawable/img_welcome"
+        android:paddingBottom="8dip"
+        android:paddingLeft="13dip"
+        android:paddingRight="13dip"
+        android:paddingTop="8dip"
+        android:text="立即体验"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="gone"
+       />
+    <LinearLayout
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dip"
+        android:orientation="horizontal" />
+</RelativeLayout>

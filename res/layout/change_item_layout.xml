@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/title_img"
+        android:layout_width="25dip"
+        android:layout_height="25dip"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_weight="0.8"
+        android:layout_gravity="center"
+        android:text=""
+        android:id="@+id/platformchange" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="显示余额"
+        android:layout_weight="0.8"
+        android:textColor="@color/usertopbagcolor"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/balance" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:gravity="center|right"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="转入"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/radius_imageview"
+        android:textSize="15sp"
+        android:id="@+id/changeinto" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="转出"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:background="@drawable/radius_imageview"
+        android:id="@+id/changeout" />
+</LinearLayout>
+    </LinearLayout>
+</LinearLayout>

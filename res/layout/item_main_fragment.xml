@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_margin="10dip"
+        android:src="@drawable/menu_cqssc"
+        />
+
+    <LinearLayout
+        android:id="@+id/contentview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="排列300"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dip"
+            android:text="赢赢赢赢"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+</LinearLayout>

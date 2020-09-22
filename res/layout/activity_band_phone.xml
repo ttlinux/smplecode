@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray12"
+    android:orientation="vertical">
+
+    <include layout="@layout/toplayout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dip"
+                android:layout_height="10dip"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_loess4" />
+
+            <TextView
+                android:id="@+id/phonetag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="手机号"
+                android:textColor="@color/gray19"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="15dip"
+                android:background="@color/white"
+                android:hint="请输入手机号"
+                android:padding="5dip"
+                android:singleLine="true"
+                android:textColor="@color/black2"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="2dip"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:id="@+id/forgetpassward_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            >
+        <LinearLayout
+            android:id="@+id/flayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dip"
+                android:layout_height="10dip"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_loess4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:text="手机号"
+                android:textColor="@color/gray19"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/forget_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="15dip"
+                android:background="@color/white"
+                android:hint="请输入手机号"
+                android:padding="5dip"
+                android:singleLine="true"
+                android:maxLength="20"
+                android:inputType="number"
+                android:textColor="@color/black2"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_below="@id/flayout"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="2dip"
+            android:background="@color/line" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dip"
+                android:layout_height="10dip"
+                android:layout_gravity="center"
+                android:background="@drawable/circle_loess4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dip"
+                android:text="验证码"
+                android:textColor="@color/gray19"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dip">
+
+                <TextView
+                    android:id="@+id/getauth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/btn_conner_noradiu_loss"
+                    android:padding="5dip"
+                    android:text="获取验证码"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/authnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="15dip"
+                    android:layout_toLeftOf="@id/getauth"
+                    android:background="@color/white"
+                    android:hint="请输入验证码"
+                    android:maxLength="15"
+                    android:padding="5dip"
+                    android:singleLine="true"
+                    android:textColor="@color/black2"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="2dip"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="10dip"
+            android:visibility="invisible"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/warn" />
+
+            <TextView
+                android:id="@+id/notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dip"
+                android:layout_marginRight="20dip"
+                android:drawablePadding="5dip"
+                android:gravity="left"
+                android:textColor="@color/gray8"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginTop="10dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginBottom="20dip"
+            android:background="@drawable/btn_conner_noradiu_loss"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:text="确认"
+            android:padding="10dip"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>

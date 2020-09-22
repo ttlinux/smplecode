@@ -1,0 +1,384 @@
+<resources>
+    <string name="app_name">Lottery</string>
+    <string name="placehold">这个不是给你看的</string>
+    <string name="toasts">点击以上开奖号码区域可查看更多</string>
+    <string name="qq">QQ客服:</string>
+    <string name="RoundEnd">已封盘</string>
+    <string name="weixin">微信客服:</string>
+    <string name="phone">TEL:</string>
+    <string name="email">Email:</string>
+    <string name="contactoffice">联系在线客服</string>
+    <string name="customer">客服中心</string>
+    <string name="action_settings">Settings</string>
+    <string name="connecterr">网络连接错误</string>
+    <string name="alllotterytype">所有彩种</string>
+    <string name="lotterytransfer">账变记录</string>
+    <string name="othergamerecord">其他游戏记录</string>
+    <string name="complete">完善信息</string>
+    <string name="message">信息</string>
+    <string name="withdraw">提现</string>
+    <string name="bankmanage">银行卡管理</string>
+    <string name="bandbankcard">绑定银行卡</string>
+    <string name="bankcardinfo">银行信息</string>
+    <string name="lotterytransferdetail">账变详情</string>
+    <string name="teamincome">团队盈亏</string>
+    <string name="changerecord">额度转换记录</string>
+    <string name="teammanage">团队管理</string>
+    <string name="wadrecord">充提记录</string>
+    <string name="forgetpassword">忘记密码</string>
+    <string name="sitemessage">站内信</string>
+    <string name="proxytransfer">代理转账</string>
+    <string name="darilysalaryassignment">日薪调配</string>
+    <string name="salarypayoff">日薪发放</string>
+    <string name="setpoint">返点调配</string>
+    <string name="generalizelink">推广链接</string>
+    <string name="registsubordinate">注册下级</string>
+    <string name="lotteryinfo">彩种信息</string>
+    <string name="dailysalarymanage">日薪管理</string>
+    <string name="dailysalarydetail">日薪详情</string>
+    <string name="nodataclickonewmore">暂无数据,点击重新加载</string>
+
+    <string name="personalincome">个人盈亏</string>
+    <string name="randomchoose">机选</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="confirmbet">确认投注</string>
+    <string name="pay">付款</string>
+    <string name="userrecharge">充值</string>
+    <string name="modifyuserpassword">修改账户密码</string>
+    <string name="modifycashpassword">修改资金密码</string>
+    <string name="paytips">在线扫码支付(自动到账)</string>
+    <string name="paytips2">传统扫码支付(审核到账)</string>
+    <string name="atleatselectone">至少选一注</string>
+    <string name="clearnumber">清除</string>
+    <string name="atleasechooseone">请至少选择1注</string>
+    <string name="plzcnumber">请选择号码</string>
+    <string name="warmtips">温馨提示</string>
+    <string name="mynumber">我的选号</string>
+    <string name="tips3">暂支持单笔追号</string>
+    <string name="tips4">您包含多笔投注，暂无法进行智能选号</string>
+    <string name="tips5">您确定要清空当前的投注内容吗?</string>
+    <string name="cleancase">清空方案</string>
+    <string name="quitcase">是否放弃当前方案</string>
+    <string name="tips2">该方案投入超过追号金额上限(50万),请重新设置。</string>
+    <string name="userlogin">登录</string>
+    <string name="plzfillinpassword">请填写密码</string>
+    <string name="login_name">登录</string>
+    <string name="stitle">方案:追#h期 全程最低盈利#j</string>
+    <string name="plzfillinname">请填写账号</string>
+    <string name="reg_name">注册</string>
+    <string name="userreg">用户注册</string>
+    <string name="confirmdetail">请同意开户协议</string>
+    <string name="userregdeal">开户协议</string>
+    <string name="reginfottile">为了您的便利提款请务必填写正确的个人姓名及资料\n真实姓名请与需要绑定的银行卡一致</string>
+    <string name="plzfillinpassword2">请画出正确的手势密码</string>
+    <string name="tips1">退出页面会清空购彩篮里的数据,是否将已选的号码保存在号码篮内</string>
+    <string name="waiteforOpen">等待开奖</string>
+    <string name="requestingqihao">期号获取中...</string>
+    <string name="requestingqihaofail">获取期号失败，点击重现获取</string>
+    <string name="tips9">单笔投注不能大于1万注</string>
+    <string name="yl">遗漏</string>
+    <string name="tips10">您的投注方案无法盈利,请重新选择投注号码</string>
+    <string name="notearnmoney">无法盈利</string>
+    <string name="completetoast">已加载完全部数据</string>
+    <string name="tracehistory">追号记录</string>
+    <string name="tracedetail">追号详情</string>
+    <string name="betdetail">投注详情</string>
+    <string name="personaldata">个人资料</string>
+    <string name="bandphone">绑定手机号</string>
+    <string name="modifynickname">修改昵称</string>
+    <string name="setnickname">设置昵称</string>
+    <string name="sucess">成功</string>
+    <string name="fail">失败</string>
+    <string name="changetitle">转换记录</string>
+    <string name="moneytransfer">额度转换</string>
+
+    <string name="tips">当涉及到提款,银行卡绑定操作时,需要资金密码验证确定是您本人操作</string>
+
+
+    <string name="cancle">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+
+    <string name="select_date">选择日期</string>
+    <string name="current_date">当前日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="current_time">当前时间</string>
+
+
+    <string name="modifypassword">修改密码</string>
+    <string name="newpassword">新密码</string>
+    <string name="oldpassword">旧密码</string>
+    <string name="confirmpassword">确认密码</string>
+    <string name="confirmmodify">确认修改</string>
+    <string name="inputerror">两次输入的新密码不一致</string>
+    <string name="modifysuccess">密码修改成功</string>
+    <string name="modifyfail">密码修改失败</string>
+
+    <!--投注确认-->
+    <string name="countinuechoose">继续选号</string>
+    <string name="randomchooseone">机选一注</string>
+    <string name="randomchoosefive">机选五注</string>
+    <string name="clearlist">清空列表</string>
+    <string name="smartchoose">智能追号</string>
+
+    <!--提现-->
+    <string name="bankinfo">银行卡信息</string>
+    <string name="withdraw_bank">收款银行:</string>
+    <string name="bankname">银行户名:</string>
+    <string name="bank_account">银行卡号:</string>
+    <string name="bank_address">开户行地址:</string>
+    <string name="withdraw_money">提款金额:</string>
+    <string name="withdraw_password">资金密码:</string>
+    <string name="temp">提现金额需≥100元</string>
+    <string name="confirmwithdraw">确认提款</string>
+
+    <string name="wordsexplainstr">\n投注金额：该代理的所有下级的投注总额\n中奖金额：该代理的所有下级的中奖总额\n活动礼金：该代理的所有下级的活动礼金总额\n团队盈亏：该代理的所有下级的盈亏总额\n返点佣金：该代理从他的团队中获得的返佣收益\n充值金额：该代理的所有下级的充值总额\n提现金额：该代理的所有下级的提现总额\n团队余额：该代理的所有下级的总余额</string>
+
+
+    <string-array name="assitant_time">
+        <item>今天</item>
+        <item>一周</item>
+        <item>一月</item>
+    </string-array>
+
+    <string-array name="payoff_titles">
+        <item>日期</item>
+        <item>投注人数</item>
+        <item>亏损情况</item>
+        <item>投注金额</item>
+        <item>日薪金额</item>
+        <item>日薪总额</item>
+
+    </string-array>
+
+    <string-array name="lotter_info_titles">
+        <item>玩法组</item>
+        <item>玩法</item>
+        <item>高奖金</item>
+        <item>高返点</item>
+    </string-array>
+
+    <string-array name="lottery_records_titles">
+        <item>彩票记录</item>
+        <item>真人记录</item>
+        <item>电子记录</item>
+        <item>体育记录</item>
+        <item>捕鱼记录</item>
+        <item>棋牌记录</item>
+    </string-array>
+
+    <string-array name="lottery_point_titles">
+        <item>彩票返点</item>
+        <item>真人返点</item>
+        <item>电子返点</item>
+        <item>体育返点</item>
+        <item>捕鱼返点</item>
+        <item>棋牌返点</item>
+    </string-array>
+
+
+    <string-array name="game_name_wuxing">
+        <item>--</item>
+        <item>组选5</item>
+        <item>组选10</item>
+        <item>组选20</item>
+        <item>组选30</item>
+        <item>组选60</item>
+        <item>组选120</item>
+    </string-array>
+
+    <string-array name="game_name_four">
+        <item>--</item>
+        <item>组选4</item>
+        <item>组选6</item>
+        <item>组选12</item>
+        <item>组选24</item>
+    </string-array>
+
+    <string-array name="no_leftbutton_tags">
+        <item>hk6_lm_lm_lm</item>
+        <item>hk6_tx_tx_tx</item>
+        <item>hk6_tws_tws_tws</item>
+        <item>hk6_pt_pt_pt1x</item>
+        <item>hk6_pt_pt_ptws</item>
+        <item>hk6_zhengx_zhengx_zhengx</item>
+        <item>hk6_zongx_zongx_zongx</item>
+        <item>hk6_zm1t6_zm1t6_zm1</item>
+        <item>hk6_zm1t6_zm1t6_zm2</item>
+        <item>hk6_zm1t6_zm1t6_zm3</item>
+        <item>hk6_zm1t6_zm1t6_zm4</item>
+        <item>hk6_zm1t6_zm1t6_zm5</item>
+        <item>hk6_zm1t6_zm1t6_zm6</item>
+
+    </string-array>
+
+    <string-array name="RetangleShapeViews">
+        <item>hk6_lm_lm_lm</item>
+        <item>hk6_tx_tx_tx</item>
+        <item>hk6_tws_tws_tws</item>
+        <item>hk6_pt_pt_pt1x</item>
+        <item>hk6_pt_pt_ptws</item>
+        <item>hk6_zhengx_zhengx_zhengx</item>
+        <item>hk6_zongx_zongx_zongx</item>
+        <item>hk6_sb_sb_sb</item>
+        <item>hk6_sb_sb_bb</item>
+        <item>hk6_sb_sb_bbb</item>
+        <item>hk6_zm1t6_zm1t6_zm1</item>
+        <item>hk6_zm1t6_zm1t6_zm2</item>
+        <item>hk6_zm1t6_zm1t6_zm3</item>
+        <item>hk6_zm1t6_zm1t6_zm4</item>
+        <item>hk6_zm1t6_zm1t6_zm5</item>
+        <item>hk6_zm1t6_zm1t6_zm6</item>
+    </string-array>
+    <string-array name="game_name_three">
+        <item>--</item>
+        <item>组三</item>
+        <item>组六</item>
+    </string-array>
+
+    <string-array name="longhu_titles">
+        <item>lh_lhh_wq</item>
+        <item>lh_lhh_wb</item>
+        <item>lh_lhh_ws</item>
+        <item>lh_lhh_wg</item>
+        <item>lh_lhh_qb</item>
+        <item>lh_lhh_qs</item>
+        <item>lh_lhh_qg</item>
+        <item>lh_lhh_bs</item>
+        <item>lh_lhh_bg</item>
+        <item>lh_lhh_sg</item>
+    </string-array>
+
+    <string-array name="longhu_titles_values">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>23</item>
+        <item>24</item>
+        <item>34</item>
+    </string-array>
+
+    <string-array name="weixin_titles">
+        <item>wxwf_dxds_wan</item>
+        <item>wxwf_dxds_qian</item>
+        <item>wxwf_dxds_bai</item>
+        <item>wxwf_dxds_shi</item>
+        <item>wxwf_dxds_ge</item>
+    </string-array>
+    <string-array name="titles_list">
+        <item>充值</item>
+        <item>充值</item>
+        <item>充值</item>
+        <item>充值</item>
+        <item>充值</item>
+    </string-array>
+
+    <string-array name="accchange_titles">
+        <item>用户</item>
+        <item>彩种</item>
+        <item>玩法</item>
+        <item>期号</item>
+        <item>时间</item>
+        <item>追号编号</item>
+        <item>方案编号</item>
+        <item>用户余额</item>
+        <item>备注</item>
+    </string-array>
+
+    <string-array name="accchange_titles2">
+        <item>用户</item>
+        <item>平台</item>
+        <item>玩法</item>
+        <item>时间</item>
+        <item>订单号</item>
+        <item>用户余额</item>
+        <item>备注</item>
+    </string-array>
+
+    <string-array name="team_manage_detail_titles">
+        <item>日薪金额</item>
+        <item>起始金额</item>
+        <item>发放模式</item>
+        <item>发放周期</item>
+        <item>投注人数</item>
+        <item>封顶金额</item>
+        <item>亏损要求</item>
+        <item>开通时间</item>
+    </string-array>
+
+    <!--0所有类型,1扣款,2投注返点,3下级投注返点,4奖金派送,5撤单返款,6中奖停追撤单返款-->
+    <string-array name="accchange_types">
+        <item>所有类型</item>
+        <item>扣款</item>
+        <item>投注返点</item>
+        <item>下级投注返点</item>
+        <item>奖金派送</item>
+        <item>撤单返款</item>
+        <item>中奖停追撤单返款</item>
+    </string-array>
+
+    <string-array name="info_titles">
+        <item>起始期数:</item>
+        <item>进度:</item>
+        <item>终止追号条件:</item>
+        <item>追号时间:</item>
+        <item>追号编号:</item>
+    </string-array>
+
+
+    <string-array name="moneytype">
+        <item>元</item>
+        <item>角</item>
+        <item>分</item>
+        <item>厘</item>
+
+    </string-array>
+
+    <string-array name="functionbtns">
+        <item>全</item>
+        <item>大</item>
+        <item>小</item>
+        <item>单</item>
+        <item>双</item>
+        <item>清</item>
+    </string-array>
+
+    <string-array name="hou3titles">
+        <item>出现次数</item>
+        <item>最大连出</item>
+        <item>最大遗漏</item>
+        <item>平均遗漏</item>
+    </string-array>
+    <string-array name="hou3titles_color">
+        <item>C639BF</item>
+        <item>EC6900</item>
+        <item>429A42</item>
+        <item>3B7DCC</item>
+    </string-array>
+    <string-array name="app_info">
+        <item>com.android.browser</item>
+        <item>com.UCMobile</item>
+        <item>com.android.chrome</item>
+        <item>com.chrome.beta</item>
+        <item>org.mozilla.firefox</item>
+        <item>com.tencent.mtt</item>
+        <item>com.qihoo.browser</item>
+        <item>com.baidu.searchbox</item>
+        <item>com.ijinshan.browser_fast</item>
+        <item>com.oupeng.mini.android</item>
+        <item>com.lieying.browser</item>
+        <item>com.mx.browser</item>
+        <item>mobi.mgeek.TunnyBrowser</item>
+        <item>sogou.mobile.explorer</item>
+    </string-array>
+</resources>

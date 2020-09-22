@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <include layout="@layout/toplayout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="10dip"
+            android:layout_height="10dip"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_loess4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:textSize="15sp"
+            android:textColor="@color/gray19"
+            android:text="转账用户"
+            />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:singleLine="true"
+            android:layout_marginLeft="10dip"
+            android:background="@color/white"
+            android:textSize="14sp"
+            android:padding="5dip"
+            android:textColor="@color/black2"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:background="@color/line" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="10dip"
+            android:layout_height="10dip"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_loess4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:textSize="15sp"
+            android:textColor="@color/gray19"
+            android:text="转账金额"
+            />
+
+        <EditText
+            android:id="@+id/money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:maxLength="14"
+            android:layout_marginRight="15dip"
+            android:singleLine="true"
+            android:layout_marginLeft="10dip"
+            android:background="@color/white"
+            android:textSize="14sp"
+            android:padding="5dip"
+            android:textColor="@color/black2"
+            android:hint="请输入转账金额"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:background="@color/line" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="10dip"
+            android:layout_height="10dip"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_loess4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:textSize="15sp"
+            android:textColor="@color/gray19"
+            android:text="资金密码"
+            />
+
+        <EditText
+            android:id="@+id/fundpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:singleLine="true"
+            android:layout_marginLeft="10dip"
+            android:background="@color/white"
+            android:textSize="14sp"
+            android:padding="5dip"
+            android:textColor="@color/black2"
+            android:hint="请输入资金密码"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:background="@color/line" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="10dip"
+            android:layout_height="10dip"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_loess4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:textSize="15sp"
+            android:textColor="@color/gray19"
+            android:text="备注        "
+            />
+
+        <EditText
+            android:id="@+id/remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dip"
+            android:singleLine="true"
+            android:layout_marginLeft="10dip"
+            android:background="@color/white"
+            android:textSize="14sp"
+            android:padding="5dip"
+            android:textColor="@color/black2"
+            android:hint="请输入备注内容"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:background="@color/line" />
+
+    <TextView
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_conner_noradiu_loss"
+        android:text="确认"
+        android:padding="10dip"
+        />
+</LinearLayout>

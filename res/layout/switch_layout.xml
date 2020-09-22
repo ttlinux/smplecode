@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radiogroup"
+    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+    android:background="@color/white"
+        >
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dip"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="@color/btn_black_loss4"
+            android:text="@string/modifyuserpassword"
+            android:singleLine="true"
+            />
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line"
+        />
+        <RadioButton
+            android:id="@+id/rb2"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:layout_marginLeft="-1dip"
+            android:padding="10dip"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="@color/btn_black_loss4"
+            android:text="@string/modifycashpassword"
+            />
+    </RadioGroup>

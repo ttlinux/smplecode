@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray22"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.55"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:src="@drawable/checkbox_checked" />
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.55"
+        android:gravity="center"
+        android:textColor="@color/gray19"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.55"
+        android:gravity="center"
+        android:textColor="@color/gray19"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+    <com.lottery.biying.view.MyEdittext
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="0.5"
+        android:inputType="number"
+        android:digits="0123456789"
+        android:maxLength="5"
+        android:textColor="@color/gray19"
+        android:textSize="13sp"
+        android:hint="1"
+        android:background="@drawable/btn_conner_radiu_white"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+
+
+    <com.lottery.biying.view.AutoFitHeightTextview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.52"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/gray19"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+    <com.lottery.biying.view.AutoFitHeightTextview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/gray19"
+        android:textSize="13sp" />
+    <ImageView
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+    <com.lottery.biying.view.AutoFitHeightTextview
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/gray19"
+        android:textSize="13sp" />
+</LinearLayout>

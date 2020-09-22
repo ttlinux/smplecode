@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <include layout="@layout/toplayout" />
+    <RadioGroup
+        android:id="@+id/radiogroup_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/in"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="转入记录"
+            android:textColor="@color/btn_black_loss4"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/line"
+            />
+        <RadioButton
+            android:id="@+id/out"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="转出记录"
+            android:textColor="@color/btn_black_loss4"
+            android:textSize="14sp" />
+    </RadioGroup>
+    <RelativeLayout
+        android:id="@+id/ScrollerParentView"
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:layout_marginTop="-4dip">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line" />
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/radiobutton1"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/btn_loss4_gray19"
+            android:text="今天"
+            android:background="@drawable/radiu_left_selector"
+            />
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dip"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textSize="14sp"
+            android:text="7天内"
+            android:textColor="@color/btn_loss4_gray19"
+            android:background="@drawable/btn_noradiu_selector"
+            />
+        <RadioButton
+            android:id="@+id/radiobutton3"
+            android:button="@null"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-1dip"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textSize="14sp"
+            android:textColor="@color/btn_loss4_gray19"
+            android:text="30天内"
+            android:background="@drawable/radiu_right_selector"
+            />
+
+    </RadioGroup>
+
+
+        <com.lottery.biying.view.ListviewWithBackTitle
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            >
+
+
+        </com.lottery.biying.view.ListviewWithBackTitle>
+
+
+</LinearLayout>

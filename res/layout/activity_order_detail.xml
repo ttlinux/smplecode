@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray18"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/toplayout" />
+
+    <com.lottery.biying.view.SwipeHeader
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingTop="20dip"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/lotteryticon"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layerType="software"
+                    />
+
+                    <TextView
+                        android:id="@+id/lotteryname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_toRightOf="@id/lotteryticon"
+                        android:textSize="14sp"
+                        android:textColor="@color/black3" />
+
+                    <TextView
+                        android:id="@+id/qs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:paddingTop="2dip"
+                        android:paddingBottom="2dip"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip"
+                        android:textColor="@color/gray24"
+                        android:background="@drawable/mrangle" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/spaceline"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/spline" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="投注金额"
+                            android:textColor="@color/black3"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/ordermoney"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/red3"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="1dip"
+                        android:layout_height="match_parent"
+                        android:background="@color/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="中奖金额"
+                            android:textColor="@color/black3"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/winmoney"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/red3"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="1dip"
+                        android:layout_height="match_parent"
+                        android:background="@color/line" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="返点金额"
+                            android:textColor="@color/black3"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/rebatesum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/red3"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sawtooth" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="3dip"
+                    android:layout_height="match_parent"
+                    android:background="@color/loess4"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black3"
+                    android:background="@color/white"
+                    android:gravity="left"
+                    android:text="订单信息"
+                    android:padding="10dip"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dip"
+                    android:textSize="14sp"
+                    android:textColor="#6C6C6C"
+                    android:text="状态"
+                    android:gravity="left"
+                    android:padding="10dip"
+                    />
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="13dip"
+                    android:textSize="14sp"
+                    android:textColor="@color/red3"
+                    android:padding="10dip"
+                    />
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/line"
+                android:layout_marginLeft="13dip"
+                android:layout_marginRight="10dip"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dip"
+                    android:textSize="14sp"
+                    android:textColor="#6C6C6C"
+                    android:text="开奖号码"
+                    android:gravity="left"
+                    android:padding="10dip"
+                    />
+                <TextView
+                    android:id="@+id/numbers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="13dip"
+                    android:textSize="14sp"
+                    android:textColor="@color/red3"
+                    android:padding="10dip"
+                    />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="3dip"
+                    android:layout_height="match_parent"
+                    android:background="@color/loess4"
+                    />
+                <TextView
+                    android:id="@+id/detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black3"
+                    android:background="@color/white"
+                    android:gravity="left"
+                    android:text="选号详情"
+                    android:padding="10dip"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/detailvalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="13dip"
+                android:textSize="14sp"
+                android:textColor="@color/black3"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:layout_width="3dip"
+                    android:layout_height="match_parent"
+                    android:background="@color/loess4"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black3"
+                    android:background="@color/white"
+                    android:gravity="left"
+                    android:text="订单备注"
+                    android:padding="10dip"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="13dip"
+                android:textSize="14sp"
+                android:textColor="@color/gray24"
+                />
+
+            <TextView
+                android:id="@+id/confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dip"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:text="撤单"
+                android:layout_marginTop="20dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/btn_conner_noradiu_loss"
+                android:layout_marginBottom="10dip"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+    </com.lottery.biying.view.SwipeHeader>
+</LinearLayout>

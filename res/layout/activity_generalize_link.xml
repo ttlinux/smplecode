@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray12"
+    >
+
+    <include layout="@layout/toplayout" />
+    <RadioGroup
+        android:id="@+id/radiogroup_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/team"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="已建立的推广连接"
+            android:textColor="@color/btn_black_loss4"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/daily"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="生成新的推广连接"
+            android:textColor="@color/btn_black_loss4"
+            android:textSize="14sp" />
+    </RadioGroup>
+    <RelativeLayout
+        android:id="@+id/ScrollerParentView"
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:layout_marginTop="-4dip">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dip"
+        >
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <include
+        layout="@layout/toplayout"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+    <com.lottery.biying.view.SwipeHeader
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:divider="@color/line"
+            android:dividerHeight="1px"
+            android:listSelector="#00000000">
+
+
+        </ListView>
+    </com.lottery.biying.view.SwipeHeader>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:orientation="horizontal"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:paddingBottom="20dip"
+            android:layout_alignParentBottom="true"
+            >
+
+            <TextView
+                android:id="@+id/contactsuperior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dip"
+                android:text="联系上级"
+                android:background="@drawable/btn_conner_noradiu_loss"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/contactsubordinate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_weight="1"
+                android:padding="10dip"
+                android:text="联系下级"
+                android:background="@drawable/btn_conner_noradiu_loss"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

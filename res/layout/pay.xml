@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/userbagcolor"
+    android:orientation="vertical">
+
+    <include layout="@layout/toplayout"></include>
+
+
+    <include layout="@layout/switch_layout"></include>
+    <RelativeLayout
+        android:id="@+id/ScrollerParentView"
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:layout_marginTop="-4dip">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/line" />
+    </RelativeLayout>
+
+    <com.lottery.biying.view.SwipeHeader
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="@color/gray12"
+        android:layout_marginTop="10dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/quick_paylayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/gray12"
+                >
+
+                <TextView
+                    android:id="@+id/title0"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:paddingLeft="15dip"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:text="@string/paytips"
+                    android:textColor="@color/gray8"
+                    android:textSize="13sp"
+                    android:background="@color/white"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/lineview0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:paddingLeft="15dip"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:text="@string/paytips"
+                    android:textColor="@color/gray8"
+                    android:textSize="13sp"
+                    android:background="@color/white"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/lineview1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:paddingLeft="15dip"
+                    android:paddingTop="5dip"
+                    android:paddingBottom="5dip"
+                    android:text="@string/paytips2"
+                    android:textColor="@color/gray8"
+                    android:textSize="13sp"
+                    android:background="@color/white"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/lineview2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/into_paylayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:visibility="gone">
+
+                <com.lottery.biying.view.MyListView
+                    android:id="@+id/listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:cacheColorHint="#00000000"
+                    android:divider="@color/gray1"
+                    android:dividerHeight="0.6dp"
+                    android:fadeScrollbars="true"
+                    android:fadingEdge="none"
+                    android:scrollbars="none"
+                    android:tag="skin:funcbag:background">
+
+                </com.lottery.biying.view.MyListView>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dip"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/warn" />
+
+                <RadioButton
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:button="@null"
+                    android:drawablePadding="5dip"
+                    android:gravity="left"
+                    android:text="@string/tips3"
+                    android:textColor="@color/gray8"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    </com.lottery.biying.view.SwipeHeader>
+</LinearLayout>

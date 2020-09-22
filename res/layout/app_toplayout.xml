@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/toplayout"
+        android:layout_width="match_parent"
+        android:background="@color/topbagcolor"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+             />
+<!--        <View
+            android:id="@+id/line"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:layout_toRightOf="@+id/back"
+            android:layout_centerVertical="true"
+            ></View>-->
+        <ImageView
+            android:id="@+id/appicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/white"
+    android:id="@+id/title"
+    android:layout_toRightOf="@+id/line"
+    android:layout_margin="5dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:textSize="18sp"
+    />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_margin="5dp"
+            android:id="@+id/imageone"
+            />
+        <ImageView
+            android:id="@+id/imagetwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+         />
+
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dip"
+            android:visibility="gone"
+            android:paddingRight="15dip"
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:text="@string/reg_name"
+            android:background="@drawable/radiu_white_rangle"
+            />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/register"
+            android:layout_marginRight="10dip"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:visibility="gone"
+            android:paddingTop="2dip"
+            android:paddingBottom="2dip"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:text="@string/login_name"
+            android:background="@drawable/radiu_white_rangle"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

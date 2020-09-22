@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dip"
+    android:layout_marginRight="15dip"
+    android:background="@drawable/btn_coner_radiu_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="温馨提示"
+        android:textColor="@color/gray19"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+
+
+
+   <TextView
+       android:id="@+id/content"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:textSize="15sp"
+       android:paddingTop="20dip"
+       android:paddingBottom="20dip"
+       android:gravity="center"
+       />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+
+    <TextView
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="继续选号"
+        android:textColor="@color/loess4"
+        android:textSize="15sp" />
+</LinearLayout>

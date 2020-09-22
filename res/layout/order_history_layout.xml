@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <include
+        layout="@layout/toplayout"/>
+
+    <RelativeLayout
+        android:id="@+id/proxylayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:padding="10dip">
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/btn_conner_noradiu_loss"
+            android:paddingBottom="10dip"
+            android:paddingLeft="25dip"
+            android:paddingRight="25dip"
+            android:paddingTop="10dip"
+            android:text="搜索"
+            android:textSize="15sp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/username_val"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@id/search"
+            android:background="@drawable/btn_conner_radiu_gray"
+            android:hint="输入下级账号"
+            android:paddingBottom="9dip"
+            android:paddingLeft="10dip"
+            android:paddingTop="9dip"
+            android:textSize="14sp"
+            android:maxLength="16"
+            android:digits="0987654321qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM"
+            />
+
+    </RelativeLayout>
+
+        <com.lottery.biying.view.ListviewWithBackTitle
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        </com.lottery.biying.view.ListviewWithBackTitle>
+</LinearLayout>
